@@ -108,6 +108,9 @@ section > .header button::-moz-focus-inner {
 }
 #output .content {
     padding: 10px;
+    user-select: all;
+    -moz-user-select: all;
+    -webkit-user-select: all;
 }
 
 .change-log-toggle {
